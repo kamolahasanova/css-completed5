@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4d04e;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f7f7f;
+}
+.card {
+  background-color: #ffffff;
+  width: 384px;
+  border: 1px solid #111;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.card-image {
+  margin-bottom: 24px;
+}
+.card-badge {
+  background-color: #f4d04e;
+  padding: 4px 12px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.card-badge-text {
+  color: #111;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+}
+.card-published-data {
+  color: #111;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+.card-title {
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.card-description {
+  color: #7f7f7f;
+
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.card-author-image {
+  width: 32px;
+  height: 32px;
+}
+.card-author-name {
+  color: #111;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+}
